@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    color: #acc8d7;
+}
+
+.color-palette {
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .color-block {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 100px;
+    color: white !important;
+    border-radius: 55px;
+  }
+  

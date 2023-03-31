@@ -1,0 +1,49 @@
+/* Styling the navbar */
+.navbar {
+    background-color: #F3F2F1 !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #E6E6E6 !important;
+    height: 56px !important;
+}
+
+.navbar-brand {
+    color: #446879 !important;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    margin-left: 1.5rem !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+    padding-right: 0 !important;
+}
+
+.nav-link {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-decoration: none; /* remove underline on hover  */
+}
+
+.nav-link:hover {
+    color: #0078D4 !important;
+    background-color: rgb(141, 194, 255);
+    border-radius: 5px;
+    text-decoration: underline; /* add underline on hover */
+}
+
+.nav-item {
+    border-right: 2px solid #677c8d !important; /* add border between links */
+    padding-right: 1rem !important; /* add padding to the right of each link */
+}
+
+.nav-item:last-child {
+    border-right: none !important; /* remove border on last link */
+    padding-right: 0 !important; /* remove right padding on last link */
+}
+
+.active {
+    color: #0078D4 !important;
+}

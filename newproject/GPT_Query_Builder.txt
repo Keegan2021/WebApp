@@ -1,0 +1,20 @@
+this is the html for the colors page so far:
+{% extends "base.html" %}
+
+{% block title %}My Web App - Application 2{% endblock %}
+
+{% block content %}
+    <h1>Welcome to Colors</h1>
+    
+{% endblock %}
+
+I want html and css that displays a color palette using the following values
+#253f4b
+#365563
+#446879
+#537d90
+#608da2
+#779eb2
+#8eb1c2
+#acc8d7
+display the hex value as a block and place the color value as text inside the block. stack on on top of eachother in the order i gave
