@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 
-#this creates an app to call actions on.
+#this creates an app to call actions on
 app = Flask(__name__, static_url_path='/static')
 
 
