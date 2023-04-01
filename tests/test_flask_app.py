@@ -1,5 +1,6 @@
 import requests
 
+#run different tests to make sure that pages come back good.
 def test_homepage():
     url = 'http://localhost:5000/'
     response = requests.get(url)
