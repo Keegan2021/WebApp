@@ -8,7 +8,7 @@ app = Flask(__name__, static_url_path='/static')
 def index():
     return render_template('index.html')
 
-@app.route('/app01')
+@app.route('/app1')
 def app1():
     return render_template('app1.html')
 
