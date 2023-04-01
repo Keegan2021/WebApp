@@ -47,3 +47,36 @@
 .active {
     color: #0078D4 !important;
 }
+
+/* Dropdown menu for settings style*/
+.nav_dropdown-toggle {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.nav_dropdown-toggle:hover {
+    color: #0078D4 !important;
+    background-color: rgb(141, 194, 255);
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.nav_dropdown-item {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.nav_dropdown-item:hover {
+    color: #0078D4 !important;
+    background-color: rgb(141, 194, 255);
+    border-radius: 5px;
+    text-decoration: underline;
+}
