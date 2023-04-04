@@ -48,35 +48,36 @@
     color: #0078D4 !important;
 }
 
-/* Dropdown menu for settings style*/
-.nav_dropdown-toggle {
-    color: #333;
-    font-size: 16px;
-    font-weight: 400;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    text-decoration: none;
+/* popout pane for settings */
+/* hide the settings pane by default */
+#settings-pane {
+    display: none;
 }
 
-.nav_dropdown-toggle:hover {
-    color: #0078D4 !important;
-    background-color: rgb(141, 194, 255);
-    border-radius: 5px;
-    text-decoration: underline;
+/* style the settings button/link */
+#settings-button {
+    padding: 12px;
+    text-align: auto;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url("../images/settings_gear.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
-.nav_dropdown-item {
-    color: #333;
-    font-size: 16px;
-    font-weight: 400;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    text-decoration: none;
-}
-
-.nav_dropdown-item:hover {
-    color: #0078D4 !important;
-    background-color: rgb(141, 194, 255);
-    border-radius: 5px;
-    text-decoration: underline;
+/* show the settings pane when the button/link is clicked */
+#settings-pane {
+    display: none;
+    position: absolute;
+    top: 55px;
+    right: 20px;
+    background-color: white;
+    border: 1px solid rgb(15, 15, 15);
+    padding: 30px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+    z-index: 1;
 }
