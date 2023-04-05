@@ -87,15 +87,10 @@
 
 /* Style the Dark Mode label text */
 .darkmode_label_text {
-    margin-right: 50px;
-    font-weight: bold;
+    margin-right: 120px;
     font-size: 16px;
-    text-transform: uppercase;
     font-family: sans-serif;
-}
-.darkmode_row td:last-child {
-    background-color: red;
-    text-align: right;
+    color: gray;
 }
 
 /* Style the Dark Mode switch */
@@ -121,7 +116,7 @@
     left: -1px;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #acc8d7;
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 34px;
@@ -130,12 +125,11 @@
 /* Style the Dark Mode switch slider roundness */
 .darkmode_slider.round {
     border-radius: 34px;
-    vertical-align: middle !important;
 }
 
 /* Style the Dark Mode switch slider when toggled on */
 .darkmode_switch input:checked + .darkmode_slider {
-    background-color: green;
+    background-color: #253f4b;
 }
 
 /* Style the Dark Mode switch slider when toggled on and its roundness */
@@ -165,5 +159,5 @@
 }
 
 .darkmode_switch_div {
-    vertical-align: middle;
+    margin-top: 8px;
 }
