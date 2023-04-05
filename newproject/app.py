@@ -20,15 +20,6 @@ def app2():
 def colors():
     return render_template('colors.html')
 
-#Dark Mode
-@app.route('/set_mode', methods=['POST'])
-def set_mode():
-    mode = request.form.get('mode')
-    # Do something with the mode (e.g. set a cookie, update a database)
-    print(f"Mode set to {mode}")
-    response = make_response()
-    response.status_code = 200
-    return response
 
 if __name__ == '__main__':
     app.run(debug=True)

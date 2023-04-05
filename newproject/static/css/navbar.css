@@ -1,21 +1,21 @@
 /* Styling the navbar */
 .navbar {
-    background-color: #F3F2F1 !important;
-    box-shadow: none !important;
-    border-bottom: 1px solid #E6E6E6 !important;
-    height: 56px !important;
+    background-color: #F3F2F1;
+    box-shadow: none;
+    border-bottom: 1px solid #E6E6E6;
+    height: 56px;
 }
 
 .navbar-brand {
-    color: #446879 !important;
-    font-size: 24px !important;
-    font-weight: 600 !important;
-    margin-left: 1.5rem !important;
+    color: #446879;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 1.5rem;
 }
 
 .navbar-toggler {
-    border: none !important;
-    padding-right: 0 !important;
+    border: none;
+    padding-right: 0;
 }
 
 .nav-link {
@@ -28,24 +28,20 @@
 }
 
 .nav-link:hover {
-    color: #0078D4 !important;
+    color: #0078D4;
     background-color: rgb(141, 194, 255);
     border-radius: 5px;
     text-decoration: underline; /* add underline on hover */
 }
 
 .nav-item {
-    border-right: 2px solid #677c8d !important; /* add border between links */
-    padding-right: 1rem !important; /* add padding to the right of each link */
+    border-right: 2px solid #677c8d; /* add border between links */
+    padding-right: 1rem; /* add padding to the right of each link */
 }
 
 .nav-item:last-child {
-    border-right: none !important; /* remove border on last link */
-    padding-right: 0 !important; /* remove right padding on last link */
-}
-
-.active {
-    color: #0078D4 !important;
+    border-right: none; /* remove border on last link */
+    padding-right: 0; /* remove right padding on last link */
 }
 
 /* popout pane for settings */
@@ -71,16 +67,13 @@
 
 /* Show the settings pane when the button/link is clicked */
 #settings-pane {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     position: absolute;
     top: 55px;
     right: 20px;
-    background-color: white;
+    background-color: rgb(57, 57, 57);
     border: 1px solid #0f0f0f;
     padding: 10px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     z-index: 1;
     width: 300px;
   }
@@ -90,7 +83,7 @@
     margin-right: 120px;
     font-size: 16px;
     font-family: sans-serif;
-    color: gray;
+    color: whitesmoke;
 }
 
 /* Style the Dark Mode switch */
@@ -125,6 +118,8 @@
 /* Style the Dark Mode switch slider roundness */
 .darkmode_slider.round {
     border-radius: 34px;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* Style the Dark Mode switch slider when toggled on */
