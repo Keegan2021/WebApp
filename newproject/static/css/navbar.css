@@ -69,15 +69,101 @@
     background-size: 100%;
 }
 
-/* show the settings pane when the button/link is clicked */
+/* Show the settings pane when the button/link is clicked */
 #settings-pane {
-    display: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     position: absolute;
     top: 55px;
     right: 20px;
     background-color: white;
-    border: 1px solid rgb(15, 15, 15);
-    padding: 30px;
-    box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+    border: 1px solid #0f0f0f;
+    padding: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
     z-index: 1;
+    width: 300px;
+  }
+
+/* Style the Dark Mode label text */
+.darkmode_label_text {
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.darkmode_row td:last-child {
+    background-color: red;
+    text-align: right;
+}
+
+/* Style the Dark Mode switch */
+.darkmode_switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+/* Style the Dark Mode switch input */
+.darkmode_switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Style the Dark Mode switch slider */
+.darkmode_slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: -1px;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+/* Style the Dark Mode switch slider roundness */
+.darkmode_slider.round {
+    border-radius: 34px;
+    vertical-align: middle !important;
+}
+
+/* Style the Dark Mode switch slider when toggled on */
+.darkmode_switch input:checked + .darkmode_slider {
+    background-color: green;
+}
+
+/* Style the Dark Mode switch slider when toggled on and its roundness */
+.darkmode_switch input:checked + .darkmode_slider.round {
+    border-radius: 34px;
+}
+
+/* Style the Dark Mode switch slider thumb */
+.darkmode_slider::before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+/* Style the Dark Mode switch slider thumb when toggled on */
+.darkmode_switch input:checked + .darkmode_slider::before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.darkmode_switch_div {
+    vertical-align: middle;
 }
