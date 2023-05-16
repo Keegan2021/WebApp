@@ -2,6 +2,35 @@
 
 # Documentation
 
+## Functional
+* ToDo list app
+* Park list app
+* Pen collection app
+* Table interface app
+* Database
+* Database connection layer (SQLAlchemy)
+* Web Framework (Flask--backend, Bootstrap or react--frontend)
+* Connection to raspberry pi on local network. 
+
+## Non-Functional
+* Modular ["Large application"](https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications#structuring-the-application-directory) file system. 
+* [Model-View-Controller pattern](#model-view-controller-(mvc)-pattern:)
+* [Repository pattern](#repository-pattern:)
+* [Service-oriented architecture (SOA) pattern](#service-oriented-architecture-(soa)-pattern:)
+* [Facade pattern](#facade-pattern:)
+* [Caching pattern](#caching-pattern:)
+* CI/CD for automated testing and deployment (Github workflows). 
+* Availability on demand from anywhere. DigitalOcean? Linode? other?
+* Low Cost
+* Easy to maintain (good documentation). 
+
+## Non-Required 
+* Encryption handling.
+* Secure Auth. 
+
+
+## Database Diagrams
+[UML Diagram Link](https://github.com/users/Keegan2021/projects/3/views/1?pane=issue&itemId=25184888)
 
 ## Design Patterns
 ### Model-View-Controller (MVC) pattern:
@@ -27,6 +56,3 @@ The benefits of using the Facade pattern include:
     In the context of a web application with a cloud-hosted database, a Facade pattern might be used to simplify the interface to the database, or to hide some of the complexity of working with a cloud-based database service. For example, the Facade might provide a simpler API to the database that abstracts away some of the details of the underlying service, or it might handle connection pooling, caching, or other optimizations that are required when working with a cloud-based database.
 ### Caching pattern:
     This pattern involves storing frequently accessed data in memory, or in a faster storage layer, to reduce the number of queries made to your database. This can help to improve the performance of your application and reduce the load on your database.
-
-## Database Diagrams
-[UML Diagram Link](https://github.com/users/Keegan2021/projects/3/views/1?pane=issue&itemId=25184888)
