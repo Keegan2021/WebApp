@@ -23,6 +23,7 @@
 * Availability on demand from anywhere. DigitalOcean? Linode? other?
 * Low Cost
 * Easy to maintain (good documentation). 
+* Docker Container?
 
 ## Non-Required 
 * Encryption handling.
