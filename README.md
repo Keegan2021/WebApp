@@ -7,7 +7,7 @@
 * Park list app
 * Pen collection app
 * Table interface app
-* Database
+* Database Local with ZeroTier for development
 * Database connection layer (SQLAlchemy)
 * Web Framework (Flask--backend, Bootstrap or react--frontend)
 * Connection to raspberry pi on local network. 
@@ -31,6 +31,9 @@
 
 ## Database Diagrams
 [UML Diagram Link](https://github.com/users/Keegan2021/projects/3/views/1?pane=issue&itemId=25184888)
+
+## Context Diagram
+![Context Diagram](Diagrams/Context%20diagram.png)
 
 ## Design Patterns
 ### Model-View-Controller (MVC) pattern:
